@@ -1,0 +1,9 @@
+@import "./font/font";
+
+@media(max-width:480px){
+    @import "./mobile/_mobile.scss";
+} 
+
+@media (min-width:481px){
+    @import "./desktop/_desktop.scss";
+}
